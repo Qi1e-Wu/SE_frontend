@@ -5,7 +5,7 @@ import {getAccessToken} from '@/util/auth';
 
 //更新下面的baseURL时也要更新这里的。
 export const BASEURL = 'http://43.142.90.238:28080';
-// export const BASEURL = 'http://localhost:28080';
+ //export const BASEURL = 'http://localhost:28080';
 const service = axios.create({
 
     //baseURL: 'http://localhost:28080',
