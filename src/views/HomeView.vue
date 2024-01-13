@@ -2,7 +2,7 @@
   <div>
   <div class="container">
         <div class="welcome-message">
-          <h1>北京大学行为科学在线实验平台</h1>
+          <h1>行为科学在线实验平台</h1>
           <h2> {{ username }}，欢迎您!</h2>
         </div>
         <div class="line"></div>
@@ -13,7 +13,6 @@
         </div>
       </div>
   </div>
-
   </div>
 </template>
 

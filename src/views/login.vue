@@ -3,11 +3,11 @@
   <div class="body" >
     <div class="title">
       <div class="titlestyle">
-      北京大学行为科学在线实验平台
+      行为科学在线实验平台
     </div>
     </div>
     <div class="title1" @mouseover="showExplanation = true" @mouseleave="showExplanation = false" >说明</div>
-    <div v-if="showExplanation" class="explanation">最终解释权归北京大学软件与微电子学院所有</div>
+    <div v-if="showExplanation" class="explanation">2023-2024软件工程实践项目</div>
 
     <div class="title2" @click="showHelpModal">帮助</div>
     <div v-if="showModal" class="modal">

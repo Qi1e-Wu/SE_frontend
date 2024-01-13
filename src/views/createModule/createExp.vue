@@ -12,16 +12,6 @@
         <el-button type="primary" @click="openOtreeWebsites">手动创建实验</el-button>
       </el-form-item>
     </el-form>
-<!--     <el-upload
-        class="upload-demo"
-        action="http://localhost:28080/api/upload"
-        :before-upload="beforeUpload"
-        :on-success="handleSuccess"
-        :on-error="handleError"
-        :headers="uploadHeaders"
-      >
-        <el-button type="primary">点击上传</el-button>
-      </el-upload> -->
     <input type="file" ref="fileInput" style="display: none" accept=".otreezip" @change="handleFileUpload">
     <el-dialog title="请选择otree文件" :visible.sync="dialogVisible">
       <el-button type="primary" @click="chooseFile">选择文件</el-button>
