@@ -1,11 +1,7 @@
 <template>
    <div class="container">
   <div class="participate-main">
-<<<<<<< HEAD
     <h1>我参与的实验</h1>
-=======
-    <h2>我参与的实验</h2>
->>>>>>> remotes/upstream/master
     <el-table :data="experiments" class="experiment-table">
       <el-table-column prop="expId" label="实验ID"></el-table-column>
       <el-table-column prop="expName" label="实验名称"></el-table-column>

@@ -22,7 +22,7 @@ const routes = [
     component: Layout, // 修改为 Layout 组件
     children: [
       {
-        path: '',
+        path: '/feedback',
         component: () => import( '../views/feedback.vue'),
         name: 'feedback'
       }

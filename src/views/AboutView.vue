@@ -15,7 +15,6 @@
     <div class="space3"></div>
     <a href="https://ie.pubpub.org/pub/otree/release/1" target="_blank" class="otree-link">oTreehub教程：     https://ie.pubpub.org/pub/otree/release/1</a>
     <a href="https://otree.readthedocs.io/zh_CN/latest/studio.html" target="_blank" class="otree-link">oTree教程：            https://otree.readthedocs.io/zh_CN/latest/studio.html</a>
-    <a href="https://gyqzqxruol.feishu.cn/docx/AmrJdScDpoDKAuxunNOcq7WFnWf?from=from_copylink" target="_blank" class="otree-link">管理平台教程：     https://gyqzqxruol.feishu.cn/docx/AmrJdScDpoDKAuxunNOcq7WFnWf?from=from_copylink</a>
     <div class="space3"></div>
     <p class="otreequestion">· 如有其他问题，请联系：otreeplat_service@163.com</p>
   </div>

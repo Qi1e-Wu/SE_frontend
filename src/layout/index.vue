@@ -56,7 +56,7 @@
            </el-menu-item>
            <el-submenu index="/Exp/ExpModule/PythonMain" :class="{ 'menu-item-hover': activeMenu === '/Exp/ExpModule/PythonMain' }">
           <template slot="title">
-            <i class="el-icon-set-up white-style"></i>
+            <i class="el-icon-key white-style"></i>
             <span slot="title">Python解释器</span>
           </template>
           <el-menu-item index="/Exp/ExpModule/PythonCompiler" class="menu-item-with-background3" @click="$router.push('/Exp/ExpModule/PythonCompiler')" :class="{ 'menu-item-hover': activeMenu === '/rbac/user/userinfo' }">
@@ -70,7 +70,7 @@
 
               <el-submenu index="/rbac/user/userinfo" :class="{ 'menu-item-hover': activeMenu === '/rbac/user/userinfo' }">
         <template slot="title">
-          <i class="el-icon-circle-plus-outline white-style" ></i>
+          <i class="el-icon-edit white-style" ></i>
           <span slot="title" style="margin-right: 12px;color: #fff;" >修改用户信息</span>
         </template>
         <el-menu-item index="/rbac/user/userinfo" class="menu-item-with-background1" @click="$router.push('/rbac/user/userinfo')" :class="{ 'menu-item-hover': activeMenu === '/rbac/user/userinfo' }">
@@ -83,11 +83,11 @@
 
 
            <el-menu-item index="/rbac/user/about" @click="$router.push('/about')">
-             <i class="el-icon-setting white-style" ></i>
+             <i class="el-icon-info white-style" ></i>
              <span slot="title">关于</span>
            </el-menu-item>
            <el-menu-item index="/rbac/user/about" @click="$router.push('/feedback')">
-             <i class="el-icon-email white-style" ></i>
+             <i class="el-icon-chat-line-square white-style" ></i>
              <span slot="title">反馈</span>
            </el-menu-item>
            <el-menu-item index="/logout"  @click="logout">
