@@ -1,5 +1,20 @@
 # vue-admin
 
+## Local test
+vim /util/request.js
+```
+//export const BASEURL = 'http://43.142.90.238:28080';
+export const BASEURL = 'http://localhost:28080';
+const service = axios.create({
+
+    baseURL: 'http://localhost:28080',
+    //baseURL: 'http://43.142.90.238:28080',
+    // baseURL: 'https://mock.apifox.cn/m1/2428381-0-default/admin-api',
+
+  timeout: 5000
+});
+```
+
 ## Project setup
 ```
 npm install
